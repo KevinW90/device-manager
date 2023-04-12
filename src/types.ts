@@ -5,3 +5,12 @@ export type T_Device = {
   lastUsed: string;
   color: string;
 };
+
+export type T_File = {
+  id: number;
+  name: string;
+  size: string;
+  type: string;
+  modified: string;
+  color: string;
+};

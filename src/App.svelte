@@ -1,12 +1,14 @@
 <script lang="ts">
   import Greeting from "./lib/Greeting.svelte";
-  import DeviceList from "./lib/device-list/DeviceList.svelte";
+  import DeviceList from "./lib/devices/DeviceList.svelte";
+  import FileList from "./lib/cloud-repo/RepoList.svelte";
 
 </script>
 
 <main>
   <Greeting />
   <DeviceList />
+  <FileList />
 </main>
 
 <style lang="scss">

@@ -54,33 +54,7 @@
         right = '-115%';
         cardRatio = (cardWidth + cardHeight) / 3;
     }
-      
-    
-    // circles look good for .7 w/h ratio
-    /*
-      .7 {
-        top: -50%;
-        left: -40%;
-        bottom: -20%;
-        right: -85%;
-        cardRatio = cardWidth + cardHeight / 6;
-      }
-      .5 {
-        top: -30%;
-        left: -40%;
-        bottom: -15%;
-        right: -85%;
-        cardRatio = cardWidth + cardHeight / 6;
-      }
-      .3 {
-        top: -25%;
-        left: -110%;
-        bottom: -30%;
-        right: -115%;
-        cardRatio = cardWidth + cardHeight / 3;
-      }
-    */
-    // const cardRatio = cardWidth + cardHeight / 3;
+
 
     const psuedoCardStyle = `
       position: absolute;
