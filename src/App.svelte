@@ -2,6 +2,7 @@
   import Greeting from "./lib/Greeting.svelte";
   import DeviceList from "./lib/devices/DeviceList.svelte";
   import FileList from "./lib/cloud-repo/RepoList.svelte";
+  import Menu from "./lib/menu/Menu.svelte";
 
 </script>
 
@@ -9,6 +10,7 @@
   <Greeting />
   <DeviceList />
   <FileList />
+  <Menu />
 </main>
 
 <style lang="scss">
@@ -18,6 +20,10 @@
     margin: 0;
     padding: 0;
     font-family: 'nunito', sans-serif;
+  }
+
+  :global(body) {
+    overflow-y: scroll;
   }
   
   main {
