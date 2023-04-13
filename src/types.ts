@@ -12,5 +12,4 @@ export type T_File = {
   size: string;
   type: string;
   modified: string;
-  color: string;
 };

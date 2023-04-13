@@ -41,6 +41,20 @@
 </section>
 
 <style lang="scss">
+  #devices {
+    &::before {
+      content: '';
+      width: 100%;
+      height: 75%;
+      position: absolute;
+      top: 25%;
+      left: 0;
+      z-index: -1;
+      border-radius: 1rem 1rem 0 0;
+      background-color: #f1f1f1;
+    }
+  }
+
   .see-all {
     text-align: right;
     padding: 1rem;
